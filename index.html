@@ -2,49 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James B Hall Project Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <button id="left"></button>
-        <button id="right"></button>
+        <nav>
+            <h1>James B Hall Project Website</h1>
+            <button id="left" aria-label="Navigate left">&#8592;</button>
+            <button id="right" aria-label="Navigate right">&#8594;</button>
+        </nav>
     </header>
-    <h1>James B Hall Project Website</h1>
-    <article class = "subpage _2x" id = "sound">
-        <h2>sound description</h2>
-        <section class = "subarticle" id = "sound_analysis">
-            <h3></h3>
-            <img>
-            <a href="">Sound Analysis Source Code</a>
-        </section>
-        <section class = "subarticle" id = "music_tuner">
-
-        </section>
-    </article>
-    <article class = "subpage _4x" id = "games">
-        <section class = "subarticle" id = "othello">
-
-        </section>
-        <section class = "subarticle" id = "stratego">
-
-        </section>
-        <section class = "subarticle" id = "maneuver">
-
-        </section>
-        <section class = "subarticle" id = "revelation">
-
-        </section>
-    </article>
-    <article class = "subpage _1x" id = "web">
-        <section class = "subarticle" id = "activity_scheduler">
-
-        </section>
-    </article>
-    <article class = "subpage _1x" id = "science">
-        <section class = "subarticle" id = "lewis_structures">
-
-        </section>
-    </article>
+    
+    <main>
+        
+        <article class="subpage _2x" id="sound">
+            <h2>Analyzing Sound</h2>
+            <article class = "_2x">
+                <section class="subarticle" id="sound_analysis">
+                    <h3>Graph of sound in the frequency-time domain</h3>
+                    <a href="https://github.com/jamesbhall423/Sound">
+                        <img src="images/Sound Analysis.png" alt="Graph of sound in the frequency-time domain">
+                    </a>
+                </section>
+                <section class="subarticle" id="music_tuner">
+                    <h3>Music Tuner</h3>
+                    <a href="https://github.com/jamesbhall423/Music_Tuner">
+                        <img src="images/Music Tuner.png" alt="Music Tuner interface">
+                    </a>
+                </section>
+            </article>
+        </article>
+        
+        <article class="subpage" id="games">
+            <h2>Developed Games</h2>
+            <article class = "_4x">
+                <section class="subarticle" id="maneuver">
+                    <h3>Maneuver</h3>
+                    <p>Can you reach the other side, or will your opponent stop you?</p>
+                    <a href="https://github.com/jamesbhall423/Manuver">
+                        <img src="images/Maneuver.png" alt="Maneuver game board">
+                    </a>
+                </section>
+                <section class="subarticle" id="revelation">
+                    <h3>Revelation</h3>
+                    <p>Build a path across the board. But beware, lest your opponent obstructs your path without your knowledge or completes their path first!</p>
+                    <a href="https://github.com/jamesbhall423/RevelationAndroid">
+                        <img src="images/Revelation.png" alt="Revelation game board">
+                    </a>
+                </section>
+                <section class="subarticle" id="othello">
+                    <h3>Othello</h3>
+                    <p>Test your ability to play this classic game against the computer. Beware: it is good.</p>
+                    <a href="https://github.com/jamesbhall423/Othello">
+                        <img src="images/Othello.png" alt="Othello game board">
+                    </a>
+                </section>
+                <section class="subarticle" id="stratego">
+                    <h3>Stratego</h3>
+                    <p>Capture the flag in this implementation of Stratego.</p>
+                    <a href="https://github.com/jamesbhall423/Stratego">
+                        <img src="images/Stratego.png" alt="Stratego game board">
+                    </a>
+                </section>
+            </article>
+            
+        </article>
+        
+        <article class="subpage _1x" id="web">
+            <h2>Web Development Projects</h2>
+            <article class = "_1x">
+                <section class="subarticle" id="activity_scheduler">
+                    <h3>Activity Scheduler</h3>
+                    <p>A web application to help you coordinate activities with your friends.</p>
+                    <a href = "https://jamesbhall423.github.io/Activity-Scheduler/">
+                        <img src="images/Activity Scheduler.png" alt="Activity Scheduler interface">
+                    </a>
+                    <a href="https://github.com/jamesbhall423/Activity-Scheduler">GitHub</a>
+                </section>
+            </article> 
+        </article>
+        
+        <article class="subpage _1x" id="science">
+            <h2>Science Projects</h2>
+            <article class = "_1x">
+                <section class="subarticle" id="lewis_structures">
+                    <h3>Lewis Structures Generator</h3>
+                    <p>An interactive tool for creating and visualizing Lewis structures of molecules.</p>
+                    <a href="https://github.com/jamesbhall423/Lewis-Structures">
+                        <img src="images/Lewis Structure Drawer.png" alt="Lewis Structures Generator interface">
+                    </a>
+                </section>
+            </article>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 James B Hall. All rights reserved.</p>
+    </footer>
+    
+    <script src = "scripts.js"></script>
 </body>
 </html>

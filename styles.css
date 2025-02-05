@@ -1,0 +1,68 @@
+
+/* https://coolors.co/fc2424-0d21a1-b9baa3-1d1a05-7f5a83 */
+:root {
+    --banner-color: #fc2424;
+    --blue-background: #0d21a1;
+    --light-color: #CDCEBA;
+    --dark-color: #1d1a05;
+    --imperial-background: #7f5a83;
+}
+body {
+    text-align: center;
+    background-color: var(--dark-color);
+}
+main {
+    background-color: var(--blue-background);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+header {
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    background-color: var(--imperial-background);
+}
+footer {
+    background-color: var(--banner-color);
+}
+h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0.4em;
+}
+h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: 0.5em;
+}
+.subpage {
+    display: none;
+}
+.subarticle {
+    background-color: var(--light-color);
+    max-width: 35em;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 95%;
+}
+._1x, ._2x, ._4x {
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+._1x {
+    grid-template-columns: 1fr;
+}
+._2x {
+    grid-template-columns: 1fr 1fr;
+}
+._4x {
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    display: block;
+    width: 99%;
+}
