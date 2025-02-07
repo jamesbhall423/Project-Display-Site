@@ -6,10 +6,14 @@
     --light-color: #CDCEBA;
     --dark-color: #1d1a05;
     --imperial-background: #7f5a83;
+
+    --header-font-family: 'Georgia';
+    --main-font-family: 'Trebuchet MS';
 }
 body {
     text-align: center;
     background-color: var(--dark-color);
+    font-family: var(--main-font-family);
 }
 main {
     background-color: var(--blue-background);
@@ -21,6 +25,7 @@ header {
     padding-top: 0.5em;
     padding-bottom:0.5em;
     background-color: var(--imperial-background);
+    font-family: var(--header-font-family);
 }
 footer {
     background-color: var(--banner-color);
@@ -29,6 +34,7 @@ h1 {
     font-size: 2em;
     color: white;
     margin-bottom: 0.4em;
+    font-family: var(--header-font-family);
 }
 h2 {
     font-size: 2em;
